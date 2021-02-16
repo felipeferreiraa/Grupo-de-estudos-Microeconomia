@@ -3693,3 +3693,141 @@ A utilidade esperada quando se compra todas as ações da empresa B será de 13,
 \singlespacing
 
 \textbf{D)} A maior utilidade será a \textbf{$U_{C}$} que foi fruto da diversificação.
+
+\singlespacing
+
+\textbf{E)} Para comprovar o enunciado iremos montar o problema da seguinte maneira:
+
+\begin{equation}
+	\max_{x,y} 0,5 \sqrt{40x + 5y} + 0,5 \sqrt{5x + 40y} \ s.a \ 15x + 15y = 150
+\end{equation}
+
+O primeiro passo é usar a restrição para substituir na função:
+
+\begin{equation}
+	15x + 15y = 150 \ (\div 3)
+	$$\\$$
+	5x + 5y = 50 \ (\div 5) 
+	$$\\$$
+	x + y = 10
+	$$\\$$
+	y = 10 - x
+\end{equation}
+
+Agora, pode-se substituir na função 
+
+\begin{equation}
+	0,5 \sqrt{40 \cdot (10 - y) + 5y} + 0,5 \sqrt{5 \cdot (10 - y) + 40y}
+	$$\\$$ 
+	0,5 \sqrt{400 - 40y + 5y} + 0,5 \sqrt{50 - 5y + 40y}
+	$$\\$$
+	0,5 \sqrt{400 - 35y} + 0,5 \sqrt{50 + 35y}
+\end{equation}
+
+Aplicando a condição de primeira ordem na função. Lembrando que nesse caso para encontrar as derivadas é necessário usar a regra da cadeia com raízes. A regra é a seguinte:
+
+\begin{equation}
+	\dfrac{\partial d}{\partial x} (a \cdot f) = a \cdot \dfrac{\partial d}{\partial x } (f)
+\end{equation}
+
+Agora, aplicando a regra na função:
+
+\begin{equation}
+	0,5 \cdot \dfrac{1}{2\sqrt{h}} \cdot \dfrac{\partial y }{y} (400 - 35y)
+	$$\\$$
+	0,5 \cdot \dfrac{1}{2\sqrt{h}} \cdot (-35)
+	$$\\$$
+	- \dfrac{0,5 \cdot 35}{2 \sqrt{400 - 35y}}
+	$$\\$$
+	0,5 \cdot \dfrac{1}{2\sqrt{h}} \cdot \dfrac{\partial y}{y} (50 + 35y)
+	$$\\$$
+	0,5 \cdot \dfrac{1}{2\sqrt{h}} \cdot (35)
+	$$\\$$
+	\dfrac{0,5 \cdot 35}{2 \sqrt{50 + 35y}}
+	$$\\$$
+	- \dfrac{0,5 \cdot 35}{2 \sqrt{400 - 35y}} + \dfrac{0,5 \cdot 35}{2 \sqrt{50 + 35y}} = 0
+\end{equation}
+
+Agora que a condição de primeira ordem foi definida, podemos desenvolver até achar o valor de y.
+
+\begin{equation}
+	- \dfrac{0,5 \cdot 35}{2 \sqrt{400 - 35y}} + \dfrac{0,5 \cdot 35}{2 \sqrt{50 + 35y}} = 0
+	$$\\$$
+	\dfrac{-\sqrt{50+35 y} \cdot 0,5 \times 35}{\sqrt{50+35 y} \cdot 2 \sqrt{400 - 35 y}}+\frac{0,5 \cdot 35}{2 \sqrt{50+35 y}}
+	$$\\$$
+	\frac{-\sqrt{50+35 y} \cdot 0,5 \cdot 35}{\sqrt{50+35 y \cdot 2 \cdot \sqrt{400-35 y}}}+\frac{\sqrt{400+3 s y} \cdot 0,5 \cdot 35}{\sqrt{400-35y \cdot 2 \sqrt{50+35y}}}
+	$$\\$$
+	\dfrac{-17,5 \cdot \sqrt{50+35 y}}{2 \cdot \sqrt{(50+35 y) \cdot(400-35 y)}}+\frac{17,5 \cdot \sqrt{400-35 y}}{2 \cdot \sqrt{(400-35 y) \cdot(50+35y)}}
+	$$\\$$ 
+	\dfrac{-17,5  \sqrt{50+35 y}+ 17,5 \sqrt{400-35 y}}{2 \cdot \sqrt{(400-35 y) \cdot(50+35y)}} = 0
+	$$\\$$
+	-17,5 \sqrt{50 + 35y} + 17,5 \sqrt{400 - 35y} = 0  \ (\cdot 2)
+	$$\\$$
+	-35 \sqrt{50 + 35y} + 35 \sqrt{400 - 35y} = 0
+	$$\\$$ 
+	35 \sqrt{400 - 35y} = 35 \sqrt{50 + 35y}   \ \ (\div 35)
+	$$\\$$
+	\sqrt{400 - 35y}^{2} = \sqrt{50 + 35y}^{2}
+	$$\\$$
+	400 - 35y = 50 + 35y
+	$$\\$$
+	35y + 35y = 400 - 50
+	$$\\$$
+	70y = 350
+	$$\\$$
+	y = \dfrac{350}{70}
+	$$\\$$
+	y = 5
+\end{equation}
+
+Agora, sabendo que $y = 5$. Aplicaremos o resultado de y na restrição
+
+\begin{equation}
+	x = 10 - y
+	$$\\$$
+	x = 10 - 5
+	$$\\$$
+	x = 5
+\end{equation}
+
+Os resultados de x e y comprovam que a alternativa \textbf{C} é o melhor investimento possível dado as restrições e valores disponíveis. 
+
+
+\singlespacing
+
+\textbf{4 -} Suponha que o CAPM estimado para certo período seja:
+
+\begin{equation}
+	E(r_{i}) = 0,06 + 0,18\beta_{i}
+\end{equation}
+
+Imagine que durante o mesmo período dois fundos de investimento tenham apresentado os seguintes resultados:
+
+\singlespacing
+\begin{center}
+	$\text{Fundo A:} \ \ \text{Retorno Observado} = 10\%, \ \ \beta = 0,8$
+	\\
+	$\text{Fundo B:} \ \ \text{Retorno Observado} = 15\%, \ \ \beta = 1,2$
+\end{center}
+
+\singlespacing
+
+O que pode ser dito a respeito de cada fundo?
+
+\singlespacing
+
+\textbf{Resposta:}
+\\
+Aplicando a fórmula para descobrir os retornos esperados:
+
+\begin{equation}
+\text{Fundo A:} \ \ E(r_{i}) = 0,06 + 0,18 \cdot 0,8
+$$\\$$
+E(r_{i}) = 0,204
+$$\\$$
+\text{Fundo B:} \ \ E(r_{i}) = 0,06 + 0,18 \cdot 1,2
+$$\\$$
+E(r_{i}) = 0,276
+\end{equation}
+
+Nesse caso, o fundo A teve o retorno esperado de 20,4\% e o fundo B, 27,6\%. Um ponto importante é que o retorno esperado foi melhor do que o observado e o fundo B, que teve um $\beta$ maior trouxe resultados acima do que o fundo A.
