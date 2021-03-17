@@ -1,5 +1,4 @@
 
-
 \begin{center}
 	\section*{Questões José Guilherme - Nota 02}
 \end{center}
@@ -3831,3 +3830,178 @@ E(r_{i}) = 0,276
 \end{equation}
 
 Nesse caso, o fundo A teve o retorno esperado de 20,4\% e o fundo B, 27,6\%. Um ponto importante é que o retorno esperado foi melhor do que o observado e o fundo B, que teve um $\beta$ maior trouxe resultados acima do que o fundo A.
+
+\singlespacing
+
+\textbf{5 - } Suponha um investidor avesso ao risco cujas preferências por consumo em t e $t + 1$ são dadas por (existem apenas dois períodos):
+
+\begin{center}
+	$U(c_{t}, c_{t + 1}) = u(c_{t}) + \beta E_{t}u \ (c_{t + 1}),$
+\end{center}
+
+onde 0 $<$ $\beta$ $<$ 1 é o fator de desconto subjetivo. Suponha que exista um ativo cujo preço é $p_{t}$. O payoff desse ativo no próximo período é dado por $x_{t + 1} = p_{t + 1} + d_{t + 1}$, onde $d_{t + 1}$ são os dividendos pagos. O investidor tem uma renda $w_{t}$ no período $t$ e no período $t + 1$ ele tem uma renda $w_{t + 1}$ Denote por $z$ o quanto desse ativo o investidor quer comprar.
+
+\singlespacing
+
+\textbf{A)} Qual a restrição orçamentária no período $t$? Qual a restrição orçamentária no período $t + 1$ Formule o problema do consumidor/investidor.
+
+\singlespacing
+
+\textbf{D)} Suponha que a função de utilidade é quadrática, i.e.,
+
+\begin{center}
+	$u(c) = -\dfrac{1}{2}(c - v)^{2}$,
+\end{center}
+
+onde $v$ é um parâmetro. Reescreva o fator de desconto estocástico usando a forma funcional acima.
+
+\singlespacing
+\textbf{Respostas:}
+
+\textbf{A)}
+\\
+Sabendo que $w_{t}$ é a renda, $p_{t}$ é o preço e $z$ é quanto o investidor quer comprar, podemos montar a restrição para o período $t$ da seguinte forma:
+
+\begin{equation}
+	\text{Período} \ t: c_{t} = w_{t} -  p_{t}z
+\end{equation}
+
+Agora para achar o período $t + 1$ é necessário usar os preços $(p_{t + 1} + d_{t + 1})$ e a renda $w_{t + 1}$.
+
+\begin{equation}
+	c_{t + 1} = (p_{t + 1} + d_{t + 1})z + w_{t + 1}
+\end{equation}
+
+Essas são as duas restrições no período $t$ e no período $t + 1$. Agora o problema do consumidor/investidor será:
+
+\begin{equation}
+\max_{z} \  U(c_{t}, c_{t + 1}) = u(c_{t}) + \beta E_{t}u \ (c_{t} + 1) \ \text{sujeito à restrição}
+$$\\$$
+c_{t} = w_{t} - p_{t}z
+$$\\$$
+c_{t + 1} = (p_{t + 1} + d_{t + 1})z + w_{t + 1}
+\end{equation}
+
+O problema será: 
+
+\begin{equation}
+	\max_{z} \ u(w_{t} - p_{t}z) + \beta E_{t}u [(p_{t + 1} + d_{t + 1})z + (w_{t + 1}))]
+\end{equation}
+
+\singlespacing
+
+\textbf{D)} Estruturando a questão da seguinte forma:
+
+\begin{equation}
+\begin{aligned}
+u(c) = -\dfrac{1}{2}(c - v)^{2}
+\\
+u'(c) = -(c - v)
+\end{aligned}
+\end{equation}
+
+O desconto estocástico é: 
+
+\begin{equation}
+	m_{t + 1} = \beta \dfrac{u^{\prime}\left(w_{t+1}\right)}{u^{\prime}\left(w_{t}\right)}
+	$$\\$$
+	m_{t + 1} = \beta \left( \dfrac{w_{t + 1} - v}{w_{t} - v}\right)
+\end{equation}
+
+Esse é o desconto estocástico.
+
+\begin{center}
+	\section*{Questões José Guilherme - Nota 15}
+\end{center}
+
+\singlespacing
+
+\textbf{1-} Verifique o grau de homogeneidade das seguintes funções de produção
+
+\singlespacing
+
+$\text{(A) \  Tecnologia Linear:} \ f(x_{1, x_{2}}) = (ax_{1} + b_{x2})^{\gamma}, \ \text{onde} \ a > 0, b > 0, \gamma > 0$.
+\singlespacing
+$\text {(B) Tecnologia Leontief:} \ f\left(x_{1}, x_{2}\right)=\left(\min \left\{a x_{1}, b x_{2}\right\}\right)^{\gamma}, \text { onde } a>0,\  b>0, \ \gamma>0$.
+\singlespacing
+$\text { (C) Tecnologia CES: } f\left(x_{1}, x_{2}\right)= A\left[\alpha x_{1}^{\rho}+\beta x_{2}^{\rho}\right]^{\frac{\gamma}{\rho}}, \text { onde } a>0, b>0 \text { e } \rho<1, \rho \neq 0, \gamma>0$ 
+
+\singlespacing
+
+\textbf{Respostas:}
+\singlespacing
+\textbf{A)}
+
+\begin{equation}
+\text{Tecnologia Linear:} \ f(x_{1, x_{2}}) = (ax_{1} + b_{x2})^{\gamma}, \ \text{onde} \ a > 0, b > 0, \gamma > 0 
+$$\\$$
+f(tx_{1}, tx_{2}) = (a(tx_{1}) + b(tx_{2}))^{\gamma}
+$$\\$$
+f(tx_{1}, tx_{2}) = (t[ax_{1} + bx_{2}])^{\gamma}
+$$\\$$
+f(tx_{1}, tx_{2}) = t^{\gamma}(ax_{1} + bx_{2})
+$$\\$$
+ t^{\gamma}f(x_{1}, x_{2})
+\end{equation}
+
+\textbf{B)}
+
+\begin{equation}
+	\text {Tecnologia Leontief:} \ f\left(x_{1}, x_{2}\right)=\left(\min \left\{a x_{1}, b x_{2}\right\}\right)^{\gamma}, \text { onde } a>0,\  b>0, \ \gamma>0.
+	$$\\$$
+	f(tx_{1}, tx_{2}) = (\min\{a(tx_{1}), b(tx_{2})\})^{\gamma}
+	$$\\$$
+	f(tx_{1}, tx_{2}) = (t[\min\{ax_{1}, bx_{2}\}])^{\gamma}
+	$$\\$$
+	f(tx_{1}, tx_{2}) = t^{\gamma}(\min\{ax_{1}, ax_{2}\})^{\gamma}
+	$$\\$$
+	t^{\gamma}f(x_{1}, x_{2})
+\end{equation}
+
+\textbf{C)}
+
+\begin{equation}
+	\text {Tecnologia CES:} f(x_{1}, x_{2}) =A\left[\alpha x_{1}^{\rho}+\beta x_{2}^{\rho}\right]^{\frac{\gamma}{\rho}}, \text { onde } a>0, b>0 \text { e } \rho<1, \rho \neq 0, \gamma>0
+	$$\\$$
+	f(x_{1}, x_{2}) = A[\alpha(tx_{1})^{\rho} + \beta(tx_{2})^{\rho}]^{\frac{\rho}{\gamma}}
+	$$\\$$
+	f(x_{1}, x_{2}) = A[t^{\rho}(\alpha x_{1}^{\rho} + \beta x_{2}^{\rho})]^{\frac{\rho}{\gamma}}
+	$$\\$$
+	f(x_{1}, x_{2}) = tA^{\gamma}(\alpha x_{1}^{\rho} + \beta x_{2}^{\rho})^{\frac{\gamma}{\rho}}
+	$$\\$$
+	t^{\gamma}f(x_{1}, x_{2})
+\end{equation}
+
+
+As três funções de produção são homogêneas de grau um.
+
+
+\singlespacing
+
+\textbf{4-} Considere a seguinte função de produção: 
+
+\begin{equation}
+f(x_{1}, x_{2}) = \dfrac{K}{1 + x_{1}^{-\alpha} x_{2}^{-\beta}}
+\end{equation}
+
+onde $\alpha$ $>$ 0, $\beta$ $>$ 0 e K é um número positivo que serve de limite superior para a produção (ou seja, 0 $\leq$ q $<$ K).
+
+\singlespacing
+
+\textbf{A)} Mostre que esta função de produção não é homogênea.
+
+\singlespacing
+
+\textbf{Respostas:}
+
+\textbf{A)} 
+
+\begin{equation}
+f(x_{1}, x_{2}) = \dfrac{K}{1 + x_{1}^{-\alpha} x_{2}^{-\beta}}
+$$\\$$
+f(tx_{1}, tx_{2}) = \dfrac{K}{1 + (tx_{1})^{-\alpha}(tx_{2}^{-\beta})}
+$$\\$$
+f(tx_{1}, tx_{2}) = \dfrac{K}{1 + t^{-\alpha - \beta}x_{1}^{-\alpha}x_{2}^{-\beta}}
+$$\\$$
+t^{k}f(x_{1}, x_{2})\neq \dfrac{K}{1 + t^{-\alpha - \beta}x_{1}^{-\alpha}x_{2}^{-\beta}}
+\end{equation}
